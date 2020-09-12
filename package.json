@@ -1,7 +1,0 @@
-{
-    "name": "personal-website",
-    "version": "1.0.0",
-    "scripts": {
-        "build:personal-website-ui": "npm --prefix personal-website-ui run build"
-    }
-}
