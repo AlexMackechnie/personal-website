@@ -2,8 +2,6 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  /* padding-bottom: 2rem; */
-  /* background-color: var(--col-1); */
 }
 
 .column-container {

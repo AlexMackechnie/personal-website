@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createContext } from 'react';
+import React, { useState, createContext } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
@@ -15,10 +15,6 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const store = { sidebarOpen, setSidebarOpen };
-
-  useEffect(() => {
-    console.log(sidebarOpen);
-  }, [sidebarOpen])
 
   return (
     <Router>
