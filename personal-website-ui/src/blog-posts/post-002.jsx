@@ -1,7 +1,7 @@
 var post002 = `
 Doug McIlroy is well renowned for being the innovator behind Unix pipelines, along with his work on a range of programming languages and Unix programs. In 1978 while working at Bell Labs, McIlroy noted down a list of principles in the Bell System Technical Journal that characterized the style of the Unix programs being developed at the time. The first of his principles was later simplified into what has become an adage in the Unix community:
 
-> Write programs that do one thing and do it well.
+> "Write programs that do one thing and do it well."
 
 This principle is woven throughout Unix, and has become a common practice in many other areas of software engineering. In the early 2000s, the adoption of this philosophy in the world of web application architecture sparked the introduction of microservices. Architecting web applications as sets of loosely coupled services allows for increased scalability, faster deployability, higher maintainability and a large range of other benefits. However, the adoption of microservices does introduce its own challenges.
 

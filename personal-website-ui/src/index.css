@@ -149,3 +149,11 @@ img {
 img[alt="Transaction Example"] {
   padding: 1rem 0rem 1rem 0rem;
 }
+
+img[alt="Cascading Failure Example"] {
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+img[alt="Circuit Breaker Example"] {
+  padding: 1rem 0rem 1rem 0rem;
+}
