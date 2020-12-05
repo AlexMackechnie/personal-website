@@ -1,7 +1,15 @@
 import post001 from './post-001';
 import post002 from './post-002';
+import post003 from './post-003';
 
 let blogPosts = [
+    {
+        "id": "dijkstras-algorithm",
+        "title": "Dijkstra's Algorithm",
+        "date": "5th Dec 2020",
+        "snippet": "While sitting in a café in 1956, Edsger Dijkstra considered the problem of finding the shortest path between two cities, namely Rotterdam and Groningen",
+        "content": post003
+    },
     {
         "id": "the-cascading-failure-problem",
         "title": "The Cascading Failure Problem",
