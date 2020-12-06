@@ -34,7 +34,12 @@ function App() {
               return (<Route exact path={pushLink} key={post.id}>
                 <Post
                   seoTitle={post.seoTitle}
-                  seoDescription={post.seoDescription} >
+                  seoDescription={post.seoDescription}
+                  seoOgTitle={post.seoOgTitle} 
+                  seoOgType={post.seoOgType}
+                  seoOgDescription={post.seoOgDescription}
+                  seoOgImage={post.seoOgImage}
+                >
                   <h2 className="date-below">{post.title}</h2>
                   <p className="date-no-margin">{post.date}</p>
                   <Markdown>{post.content}</Markdown> 
