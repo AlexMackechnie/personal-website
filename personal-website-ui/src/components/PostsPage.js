@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import { Helmet } from "react-helmet";
 
 function PostsPage({blogPosts, toggleSidebar}) {
 
     return (
+        <>
+            <Helmet>
+                <html lang="en" />
+                <title>Alex Mackechnie - Blog</title>
+                <meta name="description" content="Hello! I'm Alex. I'm a Software Engineer currently working in Glasgow, Scotland. I blog about topics I find interesting within the world of Computer Science." />
+            </Helmet>
         <div>
             <Header title="blog" toggleSidebar={toggleSidebar} />
             <hr></hr>
@@ -23,6 +30,7 @@ function PostsPage({blogPosts, toggleSidebar}) {
                 })
             }
         </div>
+        </>
     );
 }
 
