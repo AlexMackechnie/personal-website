@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import PostsPage from './components/PostsPage';
 import Post from './components/Post';
-import ReactMarkdown from 'react-markdown';
 import blogPosts from './blog-posts/blog-posts';
 import OutsideClickHandler from 'react-outside-click-handler';
 import Sidebar from './components/Sidebar';
+import Markdown from './components/Markdown';
 
 export const Store = createContext(null);
 
@@ -35,7 +35,7 @@ function App() {
                 <Post> 
                   <h2 className="date-below">{post.title}</h2>
                   <p className="date-no-margin">{post.date}</p>
-                  <ReactMarkdown source={post.content} />
+                  <Markdown>{post.content}</Markdown> 
                 </Post>
               </Route>);
             })}

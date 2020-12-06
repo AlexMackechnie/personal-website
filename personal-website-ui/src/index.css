@@ -157,3 +157,15 @@ img[alt="Cascading Failure Example"] {
 img[alt="Circuit Breaker Example"] {
   padding: 1rem 0rem 1rem 0rem;
 }
+
+img[alt="Relaxation Example"] {
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+pre {
+  padding: 1rem;
+  font-size: 0.8rem;
+  background-color: #27282c;
+  color: white;
+  border-radius: 0.2rem;
+}
