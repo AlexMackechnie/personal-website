@@ -32,7 +32,9 @@ function App() {
             {blogPosts.map((post) => {
               var pushLink = "/blog/" + post.id;
               return (<Route exact path={pushLink} key={post.id}>
-                <Post> 
+                <Post
+                  seoTitle={post.seoTitle}
+                  seoDescription={post.seoDescription} >
                   <h2 className="date-below">{post.title}</h2>
                   <p className="date-no-margin">{post.date}</p>
                   <Markdown>{post.content}</Markdown> 
