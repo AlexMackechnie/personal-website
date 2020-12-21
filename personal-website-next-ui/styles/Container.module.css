@@ -1,0 +1,11 @@
+.appContainer {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+.columnContainer {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.5rem 1rem 2rem 1rem;
+}
