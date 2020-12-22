@@ -10,7 +10,6 @@ export default function Post({post}) {
         <>
         <Container>
             <Head>
-                <html lang="en" />
                 <title>{post.seoTitle}</title>
                 <meta name="description" content={post.seoDescription} />
                 <meta name="author" content="Alex Mackechnie" />
@@ -19,7 +18,6 @@ export default function Post({post}) {
                 <meta property="og:description" content={post.seoOgDescription} />
                 <meta property="og:image" content={post.seoOgImage} />
             </Head>
-            {/* <Header title="blog" toggleSidebar={toggleSidebar} /> */}
             <Header title="blog" />
             <hr></hr>
             <div className={styles.blogContainer} >

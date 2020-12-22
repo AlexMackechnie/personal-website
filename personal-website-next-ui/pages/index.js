@@ -7,7 +7,6 @@ export default function Home({ sidebarOpen }) {
   return (
     <>
     <Head>
-        <html lang="en" />
         <title>Alex Mackechnie</title>
         <meta name="description" content="Hello! I'm Alex. I'm a Software Engineer currently working in Glasgow, Scotland. I blog about topics I find interesting within the world of Computer Science." />
     </Head>
