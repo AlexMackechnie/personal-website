@@ -17,6 +17,10 @@ export default function Post({post}) {
                 <meta property="og:type" content={post.seoOgType} />
                 <meta property="og:description" content={post.seoOgDescription} />
                 <meta property="og:image" content={post.seoOgImage} />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={post.twitterTitle} />
+                <meta name="twitter:description" content={post.twitterDescription} />
+                <meta name="twitter:image" content={post.twitterImage} />
             </Head>
             <Header title="blog" />
             <hr></hr>
