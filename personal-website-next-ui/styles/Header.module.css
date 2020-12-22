@@ -1,0 +1,47 @@
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 2rem 0rem 2rem 0rem;
+    width: 100%;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.navbarContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbarItem {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.mobileMenuContainer {
+    display: none;
+}
+
+.bar {
+    width: 33px;
+    height: 3px;
+    background-color: #333;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 3rem;
+    pointer-events: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbarContainer {
+        display: none;
+    }
+    .mobileMenuContainer {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
