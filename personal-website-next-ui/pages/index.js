@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Container from '../components/Container';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+export default function Home({ sidebarOpen }) {
   return (
     <>
     <Head>

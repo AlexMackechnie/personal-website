@@ -1,7 +1,11 @@
+import { useContext } from 'react';
 import styles from '../styles/Header.module.css';
 import Link from 'next/link';
+import { Store } from '../components/Container';
 
 export default function Header({ title }) {
+    const store = useContext(Store);
+
     return (
         <div className={styles.headerContainer}>
             <div className={styles.titleContainer}>
