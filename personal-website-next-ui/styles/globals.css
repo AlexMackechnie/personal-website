@@ -162,6 +162,18 @@ img[alt="Relaxation Example"] {
   padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
+img[alt="Recursive Example"] {
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+img[alt="Memo Example"] {
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+img[alt="Bottom Up Example"] {
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
 pre {
   padding: 1rem;
   font-size: 0.8rem;
