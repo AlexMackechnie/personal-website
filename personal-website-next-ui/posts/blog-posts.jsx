@@ -1,8 +1,25 @@
 import post001 from './post-001';
 import post002 from './post-002';
 import post003 from './post-003';
+import post004 from './post-004';
 
 let blogPosts = [
+    {
+        "id": "dynamic-programming",
+        "title": "Dynamic Programming: Top-Down vs Bottom-Up",
+        "date": "31st Jan 2021",
+        "snippet": "Dynamic Programming is a method used to solve problems by breaking the main problem up into subproblems, storing and reusing the results, and combining the solutions",
+        "content": post004,
+        "seoTitle": "Dynamic Programming: Top-Down vs Bottom-Up",
+        "seoDescription": "Dynamic Programming is a fascinating algorithmic technique that can be used to achieve huge performance optimisations. This blog post explores the two implementations of this technique: Recursive Top-Down with Memoization and Iterative Bottom Up.",
+        "seoOgTitle": "Dynamic Programming: Top-Down vs Bottom-Up",
+        "seoOgType": "article",
+        "seoOgDescription": "Dynamic Programming is a fascinating algorithmic technique that can be used to achieve huge performance optimisations. This blog post explores the two implementations of this technique: Recursive Top-Down with Memoization and Iterative Bottom Up.",
+        "seoOgImage": "https://alexjmac.com/memo-example.png",
+        "twitterTitle": "Dynamic Programming: Top-Down vs Bottom-Up",
+        "twitterDescription": "Dynamic Programming is a fascinating algorithmic technique that can be used to achieve huge performance optimisations. This blog post explores the two implementations of this technique: Recursive Top-Down with Memoization and Iterative Bottom Up.",
+        "twitterImage": "https://alexjmac.com/memo-example.png",
+    },
     {
         "id": "dijkstras-algorithm",
         "title": "Dijkstra's Algorithm",
