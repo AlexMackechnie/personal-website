@@ -3,11 +3,15 @@ Dynamic Programming is a method used to solve problems by breaking the main prob
 
 One of the most fundamental applications of Dynamic Programming is to calculate the $n^{th}$ number in the Fibonacci sequence. The beginning of the sequence is shown below:
 
-$$0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...$$
+$$
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+$$
 
 In order to calculate the Fibonacci number at any index $n$, we can use the following equation, which says that the Fibonacci number at any index $n$ is equal to the sum of the two previous numbers in the sequence. 
 
-$$fib(n) = fib(n-1) + fib(n-2)$$
+$$
+fib(n) = fib(n-1) + fib(n-2)
+$$
 
 The sequence starts with $fib(0) = 0$ and $fib(1)=1$. Knowing these two values, succeeding Fibonacci numbers can be calculated indefinitely. The value of $fib(2)$ can be calculated by summing $fib(1)+fib(0)=1$; the value of $fib(3)$ can be calculated by summing $fib(2)+fib(1)=2$; and so on. Whenever the Fibonacci number at index $n$ is calculated, we can use this result along with the value of $fib(n-1)$ to compute the value of $fib(n + 1)$.
 
