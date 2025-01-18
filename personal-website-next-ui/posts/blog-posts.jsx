@@ -15,10 +15,10 @@ let blogPosts = [
         "seoOgTitle": "Dynamic Programming: Top-Down vs Bottom-Up",
         "seoOgType": "article",
         "seoOgDescription": "Dynamic Programming is a fascinating algorithmic technique that can be used to achieve huge performance optimisations. This blog post explores the two implementations of this technique: Recursive Top-Down with Memoization and Iterative-Bottom Up.",
-        "seoOgImage": "https://alexjmac.com/memo-example.png",
+        "seoOgImage": "https://alexmackechnie.com/memo-example.png",
         "twitterTitle": "Dynamic Programming: Top-Down vs Bottom-Up",
         "twitterDescription": "Dynamic Programming is a fascinating algorithmic technique that can be used to achieve huge performance optimisations. This blog post explores the two implementations of this technique: Recursive Top-Down with Memoization and Iterative-Bottom Up.",
-        "twitterImage": "https://alexjmac.com/memo-example.png",
+        "twitterImage": "https://alexmackechnie.com/memo-example.png",
     },
     {
         "id": "dijkstras-algorithm",
@@ -31,10 +31,10 @@ let blogPosts = [
         "seoOgTitle": "Dijkstra's Algorithm",
         "seoOgType": "article",
         "seoOgDescription": "This blog post explores the history and workings of Edsger W. Dijkstra's famous path finding algorithm, first developed in 1956.",
-        "seoOgImage": "https://alexjmac.com/relaxation-example.png",
+        "seoOgImage": "https://alexmackechnie.com/relaxation-example.png",
         "twitterTitle": "Dijkstra's Algorithm",
         "twitterDescription": "This blog post explores the history and workings of Edsger W. Dijkstra's famous path finding algorithm, first developed in 1956.",
-        "twitterImage": "https://alexjmac.com/relaxation-example.png",
+        "twitterImage": "https://alexmackechnie.com/relaxation-example.png",
     },
     {
         "id": "the-cascading-failure-problem",
@@ -47,10 +47,10 @@ let blogPosts = [
         "seoOgTitle": "The Cascading Failure Problem",
         "seoOgType": "article",
         "seoOgDescription": "This blog post explores the cascading failure problem in the world of microservices, and investigates the techniques that can be used to mitigate this.",
-        "seoOgImage": "https://alexjmac.com/circuit-breaker-example.png",
+        "seoOgImage": "https://alexmackechnie.com/circuit-breaker-example.png",
         "twitterTitle": "The Cascading Failure Problem",
         "twitterDescription": "This blog post explores the cascading failure problem in the world of microservices, and investigates the techniques that can be used to mitigate this.",
-        "twitterImage": "https://alexjmac.com/circuit-breaker-example.png"
+        "twitterImage": "https://alexmackechnie.com/circuit-breaker-example.png"
     },
     {
         "id": "isolation-in-acid-transactions",
@@ -63,10 +63,10 @@ let blogPosts = [
         "seoOgTitle": "Isolation in ACID Transactions",
         "seoOgType": "article",
         "seoOgDescription": "This blog post explores the concept of isolation within database transactions, and explains the different levels of isolation available.",
-        "seoOgImage": "https://alexjmac.com/transaction-example.png",
+        "seoOgImage": "https://alexmackechnie.com/transaction-example.png",
         "twitterOgTitle": "Isolation in ACID Transactions",
         "twitterOgDescription": "This blog post explores the concept of isolation within database transactions, and explains the different levels of isolation available.",
-        "twitterOgImage": "https://alexjmac.com/transaction-example.png"
+        "twitterOgImage": "https://alexmackechnie.com/transaction-example.png"
     }
 ];
 
