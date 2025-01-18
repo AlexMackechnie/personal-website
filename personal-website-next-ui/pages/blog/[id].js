@@ -9,6 +9,7 @@ export default function Post({post}) {
     return (
         <>
         <Container>
+            <p>I'm testing this...</p>
             <Head>
                 <title>{post.seoTitle}</title>
                 <meta name="description" content={post.seoDescription} />
